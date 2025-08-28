@@ -7,8 +7,75 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Formulaire de contact</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <form>
+            <div class="motif">
+              <h2>Motif de la demande</h2>
+              <div class="demande">
+                <label>
+                <input type="radio" name="choix" value="option1" />
+                Demande d'information</label>
+              </div>
+              <div class="demande">
+                <label>
+                <input type="radio" name="choix" value="option1" />
+                Partenariat</label>
+              </div>
+              <div class="demande">
+                <label>
+                <input type="radio" name="choix" value="option1" />
+                Autre</label>
+              </div>
+            </div>
+         
+        </div>
+     
+      </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="name">
+                  <label for="prenom">Prénom</label>
+                  <input type="text" id="prenom" name="prenom">
+                </div>
+              </div>
+           
 
+              <div class="col-6">
+                <div class="lastname">
+                  <label for="prenom">Nom</label>
+                  <input type="text" id="nom" name="nom">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                <div class="email">
+                  <label for="email">E-mail</label>
+                  <input type="email" id="email" name="email">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <div class="text">
+                  <label for="message">Votre message :</label>
+                  <textarea id="message" name="message"></textarea>
+                </div>
+              </div>
+            </div>
+             
+          </form>
+      
+        </div>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
